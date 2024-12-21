@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply dark:bg-dark bg-gray-50;
+    font-family: "Work Sans";
+  }
+}
+@layer components{
+  #content p{
+    @apply text-xl text-[#3B3C4A] dark:text-[#BABABF] leading-8 py-3;
+    font-family: "Source Serif 4";
+  }
+  #content h3{
+    @apply text-2xl font-semibold text-[#181A2A] dark:text-white leading-7 py-2;
+    font-family: "Work Sans";
+  }
+  #content Image{
+    @apply w-full h-auto rounded-md mx-auto;
+  }
+  #content img{
+    @apply w-full h-auto rounded-md mx-auto;
+  }
+  #content blockquote{
+    @apply bg-[#F6F6F7] dark:bg-[#242535] p-8 text-2xl text-[#181A2A]  dark:text-[#BABABF] leading-8 py-2 italic my-4;
+    font-family: "Source Serif 4";
+  }
+}
