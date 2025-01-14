@@ -3,8 +3,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className='w-full px-40 py-10 mt-20 bg-[#F6F6F7] dark:bg-[#141624]'>
-            <div className='grid grid-cols-3 gap-10'>
+        <footer className='w-full px-4 md:px-40 py-10 mt-20 bg-[#F6F6F7] dark:bg-[#141624]'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
                 <div className='flex flex-col justify-start items-start gap-y-3'>
                     <h4 className='font-semibold text-[#181A2A] text-lg dark:text-white'>About Us</h4>
                     <p className='text-[#696A75] font-normal dark:text-[#97989F]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
